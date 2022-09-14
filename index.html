@@ -1,0 +1,345 @@
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--GoogleFonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"rel="stylesheet">
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/431c846044.js" crossorigin="anonymous"></script>
+    
+    <title>Basic Movie Website</title>
+</head>
+
+<body>
+    <!--Messenger Sohbet Eklentisi Kodu-->
+    <div id="fb-root"></div>
+
+    <!--Sohbet Eklentisi kodumuz-->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    
+    <div class="navbar">
+        
+        <!--Logo-->
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">easc+</h1>
+            </div>
+           
+           <!--Menü-->
+           
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">Anasayfa</li>
+                    <li class="menu-list-item">Trend</li>
+                    <li class="menu-list-item">Popüler</li>
+                    <li class="menu-list-item">Diziler</li>
+                    <li class="menu-list-item">Filmler</li>
+
+                </ul>
+            </div>
+            
+            <!--Sağ Üst-->
+            <div class="profile-container">
+                <img class="profile-picture" src="img/profil.png" alt="profil">
+                <div class="profile-text-container">
+                    <span class="profile-text">Üye540634</span>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fas fa-moon toggle-icon"></i>
+                    <i class="fas fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <!--Sol Sidebar-->
+  
+    <div class="sidebar">
+        <i class="left-menu-icon fas fa-search"></i>
+        <i class="left-menu-icon fas fa-home"></i>
+        <i class="left-menu-icon fas fa-users"></i>
+        <i class="left-menu-icon fas fa-bookmark"></i>
+        <i class="left-menu-icon fas fa-tv"></i>
+        <i class="left-menu-icon fas fa-hourglass-start"></i>
+        <i class="left-menu-icon fas fa-shopping-cart"></i>
+    </div>
+    <div class="container">
+        <div class="content-container">
+            
+            <!--Arkaplan Film Bölümleri-->
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-1.jpg');">
+                <img class="featured-title" src="img/f-t-1.png" alt="">
+                <p class="featured-desc">1858'de Schultz adındaki bir ödül avcısı, Django adında bir köleyi satın alır çünkü aradığı bazı adamları bulması için kendisine yardım edecektir. Bu adamlardan biri Django'nun eski efendisidir. Onları bulduktan sonra Django, kaçmaya çalıştığı için eski efendisi tarafından ayrı olarak satılan karısı Broomhilda'yı bulmaya çalışacaktır. Schultz, Django ile kalıp ona yardım etmeyi seçecektir...</p>
+                <button class="featured-button">İZLE</button>
+            </div>
+            
+            <!--1nci Carosel / Trend-->
+            
+            <div class="movie-list-container">
+                <h1 class="movie-list-trend">Trend Olanlar</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/trend1.jpg" alt="">
+                            <span class="movie-list-item-title">Squid Game</span>
+                            <p class="movie-list-item-desc">2021  | Güney Kore |</p>
+                            <button class="movie-list-item-button">İZLE</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/trend2.jpg" alt="">
+                            <span class="movie-list-item-title">Élite</span>
+                            <p class="movie-list-item-desc">2018  | A.B.D |</p>
+                            <button class="movie-list-item-button">İZLE</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/trend3.jpg" alt="">
+                            <span class="movie-list-item-title">The Boys</span>
+                            <p class="movie-list-item-desc">2019  | A.B.D |</p>
+                            <button class="movie-list-item-button">İZLE</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/trend4.jpg" alt="">
+                            <span class="movie-list-item-title">Teen Wolf</span>
+                            <p class="movie-list-item-desc">2011  | A.B.D |</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/trend5.jpg" alt="">
+                            <span class="movie-list-item-title">Doctor Strange</span>
+                            <p class="movie-list-item-desc">2016  | A.B.D |</p>
+                            <button class="movie-list-item-button">İZLE</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/trend6.jpg" alt="">
+                            <span class="movie-list-item-title">Stranger Things</span>
+                            <p class="movie-list-item-desc">2016  | A.B.D |</p>
+                            <button class="movie-list-item-button">İZLE</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/trend7.jpg" alt="">
+                            <span class="movie-list-item-title">Kimi</span>
+                            <p class="movie-list-item-desc">2022   | A.B.D |</p>
+                            <button class="movie-list-item-button">İZLE</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            
+            <!--2nci Carosel / Popüler-->
+            
+            <div class="movie-list-container">
+                <h1 class="movie-list-populer">Popüler</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/populer1.jpg" alt="">
+                            <span class="movie-list-item-title">Fight Club</span>
+                            <p class="movie-list-item-desc">1999   | A.B.D & Almanya |</p>
+                            <button class="movie-list-item-button">İZLE</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/populer2.jpg" alt="">
+                            <span class="movie-list-item-title">Matrix</span>
+                            <p class="movie-list-item-desc">1999   | A.B.D & Avustralya |</p>
+                            <button class="movie-list-item-button">İZLE</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/populer3.jpg" alt="">
+                            <span class="movie-list-item-title">Godfather</span>
+                            <p class="movie-list-item-desc">1972   | A.B.D |</p>
+                            <button class="movie-list-item-button">İZLE</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/populer4.jpg" alt="">
+                            <span class="movie-list-item-title">A Beautiful Mind</span>
+                            <p class="movie-list-item-desc">2001   | A.B.D |</p>
+                            <button class="movie-list-item-button">İZLE</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/populer5.jpg" alt="">
+                            <span class="movie-list-item-title">Schindler's List</span>
+                            <p class="movie-list-item-desc">1993   | A.B.D |</p>
+                            <button class="movie-list-item-button">İZLE</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/populer6.jpg" alt="">
+                            <span class="movie-list-item-title">Green Mile</span>
+                            <p class="movie-list-item-desc">1999   | A.B.D & Avustralya |</p>
+                            <button class="movie-list-item-button">İZLE</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/populer7.jpg" alt="">
+                            <span class="movie-list-item-title">Prestige</span>
+                            <p class="movie-list-item-desc">2006   | A.B.D & İngiltere |</p>
+                            <button class="movie-list-item-button">İZLE</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            
+            <!--Arkaplan Film Bölümleri-->
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-2.jpg');">
+                <img class="featured-title" src="img/f-t-2.png" alt="">
+                <p class="featured-desc">Dünyanın gözü iki küçük çocuğun kaybolduğu, bir Alman kasabası olan Winden’dadır… Çocukların kaybolması, dört aile arasındaki karmaşık ilişkileri ve yaşanan çifte hayatları ortaya çıkarır.Her biri bir saatlik, on bölümden oluşan dizide, izleyici gizemli bir şekilde aynı kasabada 1986 yılında yaşanan olaylara sürükleniyor.</p>
+                <button class="featured-button">İZLE</button>
+            </div>
+            
+            <!--3nci Carosel / Diziler-->
+            <div class="movie-list-container">
+                <h1 class="movie-list-dizi">Diziler</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/dizi1.jpg" alt="">
+                            <span class="movie-list-item-title">Vikings</span>
+                            <p class="movie-list-item-desc">2006   | Kanada & İrlanda |</p>
+                            <button class="movie-list-item-button">İZLE</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/dizi2.jpg" alt="">
+                            <span class="movie-list-item-title">La Casa De Papel</span>
+                            <p class="movie-list-item-desc">2017   | İspanya |</p>
+                            <button class="movie-list-item-button">İZLE</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/dizi3.jpg" alt="">
+                            <span class="movie-list-item-title">Prison Break</span>
+                            <p class="movie-list-item-desc">2005   | A.B.D |</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/dizi4.jpg" alt="">
+                            <span class="movie-list-item-title">Breaking Bad</span>
+                            <p class="movie-list-item-desc">2008   | A.B.D |</p>
+                            <button class="movie-list-item-button">İZLE</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/dizi5.jpg" alt="">
+                            <span class="movie-list-item-title">Game of Thrones</span>
+                            <p class="movie-list-item-desc">2011   | A.B.D |</p>
+                            <button class="movie-list-item-button">İZLE</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/dizi6.jpg" alt="">
+                            <span class="movie-list-item-title">How I Met Your Mother</span>
+                            <p class="movie-list-item-desc">2005   | A.B.D |</p>
+                            <button class="movie-list-item-button">İZLE</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/dizi7.jpg" alt="">
+                            <span class="movie-list-item-title">Sherlock</span>
+                            <p class="movie-list-item-desc">2010   | A.B.D & İngiltere |</p>
+                            <button class="movie-list-item-button">İZLE</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            
+            <!--4nci Carosel / Filmler-->
+            
+            <div class="movie-list-container">
+                <h1 class="movie-list-film">Filmler</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/film1.jpg" alt="">
+                            <span class="movie-list-item-title">Aquaman</span>
+                            <p class="movie-list-item-desc">2018   | A.B.D |</p>
+                            <button class="movie-list-item-button">İZLE</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/film2.jpg" alt="">
+                            <span class="movie-list-item-title">Batman</span>
+                            <p class="movie-list-item-desc">2012   | A.B.D & İngiltere |</p>
+                            <button class="movie-list-item-button">İZLE</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/film3.jpg" alt="">
+                            <span class="movie-list-item-title">Spider-Man</span>
+                            <p class="movie-list-item-desc">2002   | A.B.D |</p>
+                            <button class="movie-list-item-button">İZLE</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/film4.jpg" alt="">
+                            <span class="movie-list-item-title">İnception</span>
+                            <p class="movie-list-item-desc">2010   | A.B.D |</p>
+                            <button class="movie-list-item-button">İZLE</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/film5.jpeg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">2013   | A.B.D |</p>
+                            <button class="movie-list-item-button">İZLE</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/film6.jpeg" alt="">
+                            <span class="movie-list-item-title">Star Wars</span>
+                            <p class="movie-list-item-desc">1999   | İngiltere |</p>
+                            <button class="movie-list-item-button">İZLE</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/film7.jpg" alt="">
+                            <span class="movie-list-item-title">Storm</span>
+                            <p class="movie-list-item-desc">2017   | Hollanda &  Belçika & Lüksemburg |</p>
+                            <button class="movie-list-item-button">İZLE</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+        </div>
+    
+    <div class="copy">
+        <b><span class="animate">2021 © Ahmet Sefa Çatalbaş © Eymen Aslan</span></b>
+    </div>
+    
+        
+    </div>
+
+    
+
+    
+
+    
+    <script src="js/app.js"></script>
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "1003601506490347");
+        chatbox.setAttribute("attribution", "biz_inbox");
+      </script>
+  
+      <!--SDK kodunuz  -->
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v12.0'
+          });
+        };
+  
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
+    
+    
+</body>
+
+</html>
